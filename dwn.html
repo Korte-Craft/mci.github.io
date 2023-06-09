@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Letöltés</title>
+    <script>
+        window.onload = function() {
+            var link = document.createElement("a");
+            link.href = "installer_hundev-manager_BETA.exe";
+            link.download = "installer_hundev-manager_BETA.exe";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        };
+    </script>
+    <meta http-equiv="refresh" content="5;url=https://korte-craft.github.io/hundev.github.io/">
+</head>
+<body>
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://korte-craft.github.io/hundev.github.io/";
+        }, 5000);
+    </script>
+</body>
+</html>
